@@ -1,0 +1,16 @@
+.quiz-question{
+    border: 2px solid #4C0033;
+    border-radius: 1rem;
+}
+.correct-answer-question{
+    border-color:  green;
+}
+.wrong-answer-question{
+    border-color:  red;
+}
+.correct-answer{
+    color:  green;
+}
+.wrong-answer{
+    color:  red;
+}

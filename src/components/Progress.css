@@ -1,0 +1,14 @@
+.progress-ring__circle {
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: green;
+  }
+  .score-span{
+    color: #790252;
+  }
+  .ring-div{
+    width: fit-content;
+    background-color: #4C0033;
+    border-radius: 50%;
+  }

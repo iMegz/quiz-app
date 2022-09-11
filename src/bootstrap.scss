@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #4C0033,
+  "secondary": #790252,
+  "light":#e5e5e5
+);
+
+
+// Import Bootstrap and its default variables
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import '~bootstrap/scss/bootstrap.scss';

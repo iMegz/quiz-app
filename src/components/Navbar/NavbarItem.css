@@ -1,0 +1,34 @@
+
+.link{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+li{
+    color: white;
+    font-size: 1.3rem;
+    background-color: #5d013e;
+    border: 1px solid #4C0033;
+    border-left: none;
+    border-right: none;
+    transition: all 0.3s;
+}
+li:hover{
+    color: #000000;
+    cursor: pointer;
+}
+li span{
+    display: none;
+}
+li:hover .link{
+    color: #AF0171;
+}
+.active{
+    background-color: #4C0033;
+}
+i{
+    margin: 0 0.7rem;
+}
